@@ -8,10 +8,6 @@
 # n = 24 -> 4 16 4    
 # n = 60 -> 10 40 10 
 
-Petya = 0
-Katya = 0
-Sergey = 0
-
 n = 60
 Petya = int(n/6)
 Sergey = Petya
