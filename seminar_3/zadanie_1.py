@@ -3,6 +3,5 @@
 # Input: [1, 1, 2, 0, -1, 3, 4, 4]
 # Output: 6
 
-print(len(dict.fromkeys()))
 
 print(len(set([1, 1, 2, 0, -1, 3, 4, 4])))
