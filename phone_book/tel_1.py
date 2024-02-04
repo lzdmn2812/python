@@ -55,12 +55,13 @@ def find_contact(data):
 
 
 def select(data, founded):
-    user_choice = 0
     if len(founded)>1:
         for i, idx in enumerate(founded):
             print(f"{i+1}. {data[idx]}")
         user_choice = int(input("Введите номер контакта: "))
         user_choice = founded[user_choice-1]
+    else: 
+        user_choice = founded[0]
     return user_choice
 
         
